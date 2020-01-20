@@ -9,7 +9,7 @@ services:
     - main
     environment:
       DB_HOST: db
-      HONEYCOMB_WRITEKEY: 
+      HONEYCOMB_WRITEKEY: test
 
   db:
     image: mysql
